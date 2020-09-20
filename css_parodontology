@@ -1,0 +1,1919 @@
+    *{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    html{
+        overflow-y:scroll;
+    }
+    #posts > a{
+        overflow-x: visible;
+        overflow-y: initial;
+    }
+    #registration > div > i{
+        color: #02404F;
+    }
+    .active_dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 6px;
+        border: 1.5px solid #02404F;
+        box-sizing: border-box;
+        background-color: #02404F;
+    }
+    button > a{
+        color: #02404F !important;
+    }
+    #rec229969082 > div > div > div.t-popup__close{
+        background-color:#4BA6AC;
+    }
+    #form229969082 > div.t-form__inputsbox > div.t-input-group.t-input-group_nm > div > input,
+    #form229969082 > div.t-form__inputsbox > div.t-input-group.t-input-group_ph > div > input,
+    #form229969082 > div.t-form__inputsbox > div.t-input-group.t-input-group_da > div > div.t-datepicker__wrapper > input{
+        font:400 16px Montserrat;
+    }
+    button{
+        background-color:#F3C871 !important;
+    }
+@keyframes opacity{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@media screen and (min-width: 0px){
+    button{
+        font:600 16px 'Montserrat', sans-serif !important;
+    }
+    body{
+        margin:0px !important;
+        background:url(https://static.tildacdn.com/tild3864-3964-4539-a663-383461363165/_320-479.png) left top/cover no-repeat;
+        box-sizing:border-box;
+        overflow-x:hidden;
+        width:100vw;
+        padding:0px;
+    }
+    .html_locked{
+        overflow:hidden;
+    }
+    #main_button > a{
+        line-height: 40px;
+    }
+    
+    #main_body > div:nth-child(1){
+        height:100vh;
+        justify-content: center;
+    }
+    #main_body > div:nth-child(2){
+        height:385px !important;
+    }
+    #main_body > div:nth-child(3){
+        height: 1065px !important;
+        justify-content: start;
+    }
+    #main_body > div:nth-child(5){
+        height: 510px !important;
+    }
+    #main_body > div:nth-child(6){
+        height: 420px !important;
+        justify-content: start;
+    }
+    #main_body > div:nth-child(7){
+        height: 348px !important;
+        overflow: visible;
+        justify-content: center;
+    }
+    #main_body > div:nth-child(8){
+        height:320px !important;
+        justify-content: center;
+        overflow: visible;
+    }
+    #main_body > div:nth-child(9){
+        height:573px!important;
+        justify-content: center;
+    }
+    #main_body > div:nth-child(10){
+        height:auto !important;
+    }
+    #main_body > div:nth-child(11){
+        height:auto !important;
+        padding: 0px 0px 15px;
+    }
+    h2 {
+        padding: 0px !important;
+        margin: 15px 0px 40px;
+    }
+    
+    .div{
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 0px !important;
+    }
+    #main_block{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: flex-start;
+    }
+    
+    #header{
+        display: flex;
+        padding: 15px 7.18vw 0px;
+        justify-content: space-between;
+    }
+    #header_sign{
+        line-height:100%;
+        text-align: left;
+        font-weight: 500;
+    }
+    #button{
+        display:flex;
+        flex-direction:column; 
+        justify-content: space-evenly;
+        height:24px;
+        width:24px;
+        z-index:3;
+    }
+    .line{
+        height: 2px;
+        background-color: #02404F;
+        width: 24px;
+    }
+    .line_white{
+        background-color: white;
+    }
+    .item_hidden{
+        opacity:0;
+    }
+    .item_rotate_top{
+        transition:transform 0.3s;
+        position:absolute;
+        transform:rotate(-45deg);
+        transform-origin:center;
+    }
+    
+    .item_rotate_bottom{
+        transition:transform 0.3s;
+        position:absolute;
+        transform:rotate(45deg);
+        transform-origin:center;
+    }
+    
+    .nav_menu {
+        position: absolute;
+        top: -100vh;   
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+        opacity: 0;
+        transition: opacity 0.3s;
+        box-sizing: border-box;
+        z-index:-1;
+    }
+    .nav_menu_visible {
+        opacity: 1;
+        z-index:2;
+        top:0vh;
+    }
+    
+    .list {
+        text-align: center;
+        list-style: none;
+        padding-left: 0px !important;
+    }
+    .link_item_menu {
+        font-family: 'Montserrat', sans-serif;
+        color: #02404F !important;
+    }
+    #url:before, #name:before {
+        position: relative;
+        right: 10px;
+        vertical-align:middle;
+    }
+    #url:before {
+        content: url(https://static.tildacdn.com/tild3463-3733-4563-a433-656332316136/icon_menu_2.svg);
+    }
+    #name:before {
+        content: url(https://static.tildacdn.com/tild6533-6134-4537-b961-613039643632/icon_menu_3.svg);
+    }
+    #menu_block > div > div > ul.list.info_clinic > li:nth-child(3){
+        margin: 3px 0px 0px;
+    }
+    
+    h1{
+        font: 24px Neucha;
+        text-align: center;
+        color: #02404F;
+        padding-top: 9vh;
+        padding-bottom: 3px;
+    }
+    div h2{
+        font: 500 24px/110% Neucha;
+        color: #02404F;
+        text-align: center;
+        padding-bottom: 58px;
+    }
+    #slogan{
+        font: 500 16px Montserrat;
+        color: white;
+        text-align: center;
+        margin: 0px;
+    }
+    .div p{
+        font:12px Montserrat;
+        color: #02404F;
+        text-align: center;
+    }
+    .div p:nth-of-type(1) span{
+        font-size:10px;
+        color: #02404F;;
+    }
+    #header_block_one{
+        z-index:-1;
+    }
+    .photo_block{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+    
+    #photo{
+        height: 55vh;
+        align-self: center;
+        padding: 8.5vh 0px 0px;
+    }
+    #main_button{
+        background-color: #FDED48;
+        border-style: none;
+        width: 240px;
+        height: 50px;
+        align-self: center;
+        border-radius: 60px;
+        font: 600 16px Montserrat;
+        color: #02404F;
+        outline-style: none;
+        position: relative;
+        bottom: 20px;
+        padding: 0px !important;
+    }
+    #video_frame{
+        align-self: center;
+        width: 300px;
+        height: 167.75px;
+    }
+    #text_under_video{
+        width: 300px;
+        text-align: justify;
+        align-self: center;
+        padding: 20px 0px 0px;
+        letter-spacing: -0.05px;
+    }
+    #text_under_video p:nth-child(2){
+        padding: 15px 0px;
+    }
+    #text_under_video > p{
+         text-align:justify;
+    }
+    #video_block{
+        display: flex;
+        flex-direction: column;
+    }
+    #video_block h2{
+        padding: 0px 0px 23px;
+    }
+    #video_block > h2{
+        margin: 15px 0px 35px;
+    }
+    #main_body > div:nth-child(3) > h2{
+        margin-bottom: 15px !important;
+        margin-top: 30px;
+    }
+    #block_gums{
+        height: 1015px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: visible;
+    }
+    #block_gums > div.left.one > div:nth-child(2){
+        height:305px;
+        overflow: visible;
+        display: grid;
+    }
+    #block_gums > div.right > div:nth-child(2){
+        height: 300px;
+        display: grid;
+        justify-items: end;
+        overflow: visible;
+    }
+    #block_gums > div.left.two > div:nth-child(2){
+        overflow: visible;
+    }
+    .left.one{
+        display: grid;
+        flex-direction: column;
+        width: 320px;
+        height: 305px;
+        align-items: center;
+        align-content: end;
+        overflow: visible;
+    }
+    .left.two{
+        height: 260px;
+        overflow: visible;
+        display: grid;
+        align-items: end;
+        align-content: end;
+        justify-content: left;
+    }
+    .left.one img,.left.two img{
+        position: relative;
+        z-index: -1;
+    }
+    .left.one img{
+        width: 200px;
+        bottom: -5px;
+        left: 30px;
+    }
+    .left.two img{
+        width: 160px;
+        bottom: -5px;
+        left: 60px;
+    }
+    .left h3, .right h3{
+        display: flex;
+        align-items: center;
+        background-color: #4BA6AC;
+        width: 320px;
+        color: white;
+        font: 600 15px Montserrat;
+        box-sizing: border-box;
+        height: 76px;
+    }
+    .left h3{
+        border-top-right-radius: 76px;
+        padding-left: 10px;
+        overflow: visible;
+    }
+    .right h3{
+        border-top-left-radius: 76px;
+        padding-right: 10px;
+        justify-content: flex-end;
+    }
+    .left p, .right p{
+        width: 300px;
+        background-color: white;
+        box-sizing: border-box;
+        
+    }
+    .left p,.right p{
+        display: flex;
+        padding-left:10px;
+        padding-right:30px;
+        text-align: left;
+        height: 105px;
+        align-items: center;
+        box-shadow: 0px 4px 4px rgba(12,79,85,0.25);
+        width: 320px;
+    }
+    .left p{
+        border-bottom-right-radius: 75px;
+    }
+    .right p{
+        padding-left:70px;
+        letter-spacing: -0.15px;
+        padding-right:10px;
+        border-bottom-left-radius: 75px;
+    }
+    .left > div:nth-child(1), .right > div:nth-child(1) {
+        background-color: white;
+        width:48px;
+        border:8px solid #4BA6AC;
+        border-radius: 32px;
+        font:700 20px/48px Montserrat;
+        text-align: center;
+        color:#4BA6AC;
+        position: relative;
+        top: -30px;
+    }
+    .left > div:nth-child(1){
+        margin-left: auto;
+        position: relative;
+        top: 190px;
+    }
+    .left.one > div:nth-child(1) {
+        margin-left: auto;
+        position: relative;
+        top: 210px;
+    }
+    .right > div:nth-child(1){
+        margin-right: auto;
+        position: relative;
+        top: 205px;
+    }
+    .right{
+        display: grid;
+        width: 320px;
+        text-align: right;
+        font: 12px Montserrat;
+        overflow: visible;
+        height: 300px;
+        align-items: center;
+        align-content: end;
+        align-self: flex-end;
+    }
+    .right img{
+        width:226px;
+        position: relative;
+        bottom: -44.67px;
+        z-index: -1;
+        align-self: flex-end;
+    }
+    #main_body > div:nth-child(3){
+        height:200vh;
+    }
+    
+    #main_body > div:nth-child(4) > h2{
+        padding-bottom: 60px;
+        font: 500 24px Neucha;
+    }
+    #tooth_block{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto;
+        height: 950px;
+    }
+      .tooth h3{
+    	text-align: center;
+    	color: white;
+    	font-size: 14px;
+      }
+      .button{
+    	background-color: #4BA6AC;
+        border-radius: 50px;
+        position: relative;
+        top: -120px;
+        width: 190px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font:600 14px Montserrat;
+      }
+      
+      .tooth.second{
+          top:285px;
+          right:10px;
+          align-self: flex-end;
+      }
+      
+      .tooth.fourth{
+          top:755px;
+          right:10px;
+          align-self: flex-end;
+      }
+      
+      #main_body > div:nth-child(4){
+        height: 1150px;
+        justify-content: center;
+      }
+      
+      #main_body > div:nth-child(5){
+          height: 68vh;
+      }
+    
+      #price_list{
+        	border-collapse:collapse;
+        	margin: 0 auto 9.86vh;
+        	width: 300px;
+        }
+        #price_list tr th:first-child{
+        	background-color: #358D94;
+        }
+        #price_list tr th:last-child{
+        	background-color: #4BA6AC;
+        }
+        #price_list tr:nth-child(2n-1) td:first-child{
+        	background-color: #358D94;
+        	color:white;
+        }
+        #price_list tr:nth-child(2n) td:first-child{
+        	background-color: #CDF2F5;
+        	color:#4BA6AC;
+        }
+        #price_list tr:nth-child(2n) td:last-child{
+        	background-color: #D8F5F7;
+        	color:#4BA6AC;
+        }
+        #price_list tr:nth-child(2n-1) td:last-child{
+        	background-color: #4BA6AC;
+        	color:white;
+        }
+        #price_list tr{
+        	height: 40px;
+        }
+        #price_list tr th:nth-child(1){
+        	border-top-left-radius: 20px;
+        }
+        #price_list tr th:nth-child(2){
+        	border-top-right-radius: 20px;
+        }
+        #price_list tr:last-child td:nth-child(1){
+        	border-bottom-left-radius:20px;
+        }
+        #price_list tr:last-child td:last-child{
+        	border-bottom-right-radius:20px;
+        }
+        #price_list tr th:first-child{
+            width: 220px;
+        }
+        #price_list tr td:last-child{
+            text-align:center;
+            font-weight: 700;
+        }
+        #price_list th{
+        	font: 700 14px Montserrat;
+        	background-color: #4BA6AC;
+        	color: white;
+        }
+        #price_list td{
+        	font: 600 11px Montserrat;
+            padding: 10px;
+        }
+        #price_list > tbody > tr:nth-child(2) > td:nth-child(2){
+            font: 700 9px Montserrat;
+            padding: 0px;
+        }
+    #main_body > div:nth-child(5) > h2{
+        padding:0px 0px 36px;
+    }
+        #respond_cards{
+            display:flex;
+            justify-content:center;
+            width: auto;
+            overflow: visible;
+        }
+        .responds{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            box-shadow: 4px 14px 15px rgba(2,64,79,0.05);
+            margin: auto;
+            width: 300px;
+            border-radius:20px;
+            background-color: white;
+            padding:25px 25px 30px;
+            height: 285px !important;
+            box-sizing: border-box;
+        }
+        .responds > div {
+            display: grid;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+        }
+        .responds > div > img{
+            width:75px;
+            height:75px;
+        }
+        .responds > div > p:nth-of-type(1){
+            text-align: justify;
+            font: 500 16px 'Montserrat', sans-serif;
+            padding: 10px 0px;
+        }
+        .responds > div > p:nth-of-type(2){
+            text-align:center;
+            font:13px 'Montserrat', sans-serif;
+        }
+        .responds > div > p:nth-of-type(2)::before{
+            content:url(https://static.tildacdn.com/tild3333-3633-4035-b266-313464623936/10Instagram_logo.svg);
+            vertical-align:sub;
+            padding-right: 5px;
+        }
+        #respond_block{
+            overflow:visible;
+        }
+        #main_body > div:nth-child(9) > h2{
+            margin-bottom: 20px;
+        }
+        #respond_navigation > div{
+            width:10px;
+            height:10px;
+            border-radius:5px;
+            border:1.5px solid #02404F;
+            box-sizing: border-box;
+        }
+        .responds > p:nth-of-type(1){
+            width: 270px;
+            font: 12px 'Open Sans', sans-serif;
+            padding: 10px 0px 20px;
+            text-align: justify;
+        }
+        #respond_navigation{
+            width: 140px;
+            height: 15px;
+            margin: 25px auto 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #main_body > div:nth-child(6) > h2 {
+            padding: 0px 0px 35px;
+        }
+        
+        #registration{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            width:300px;
+            margin: 0px auto;
+            box-shadow: 4px 4px 20px 3px rgba(2,64,79,0.07);
+            border-radius: 20px;
+            background:url(https://static.tildacdn.com/tild6337-6566-4262-a435-643633336561/BG_Registration_320-.svg) left top/cover no-repeat;
+            padding: 0px 0px 20px;
+        }
+        #registration h3{
+            text-align:center;
+            font:500 19px 'Montserrat', sans-serif;
+            padding-top:20px;
+            color: #02404F;
+        }
+        #registration > p:nth-of-type(1){
+            text-align:center;
+            font:13px 'Montserrat', sans-serif;
+        }
+        #registration button{
+            padding: 15px 18px;
+            font: 500 16px 'Montserrat', sans-serif;
+            background-color: #FDED48;
+            border-radius: 60px;
+            border-style: none;
+            color: #02404F;
+            margin: 15px 0px 20px;
+            outline: none;
+            box-shadow: 4px 4px 10px 3px rgba(2,64,79,0.07);
+        }
+        #registration > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 280px;
+        }
+        #registration > div:first-of-type{
+            margin-bottom: 10px;
+        }
+        #registration > div > div:nth-child(4) > i, #registration > div > div:nth-child(5) > i{
+           color: #02404F;
+           padding: 0px 0px 5px;
+        }
+        #registration > div > div:nth-child(4),#registration > div > div:nth-child(5){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #registration p:nth-of-type(2), #registration p:nth-of-type(3){
+            text-align:center;
+            font:11px 'Montserrat', sans-serif;
+        }
+        #registration p:nth-of-type(2){
+            padding: 5px 20px;
+        }
+        #registration p:nth-of-type(3){
+            padding-top: 5px;
+            padding-bottom: 20px;
+        }
+        #main_body > div:nth-child(7){
+            height:50vh;
+        }
+        #main_body > div:nth-child(8) > h2{
+            padding: 0px 0px 20px;
+        }
+        #notification{
+            width: 300px;
+            display: flex;
+            background-color: white;
+            border-radius: 20px;
+            background: url(https://static.tildacdn.com/tild3861-6234-4039-b333-336666633532/BG_Notification_320-.svg) left/cover no-repeat;
+            align-self: center;
+            box-shadow: 4px 4px 20px 3px rgba(2,64,79,0.07);
+        }
+        #notification p{
+            padding: 25px 10px 25px 40px;
+            position: relative;
+            text-align: justify;
+            font: 12px 'Open Sans';
+            overflow: visible;
+            width: 222px;
+            margin-left: 14px;
+            word-break: break-word;
+        }
+        #notification p:first-line {
+            word-spacing: 1px;
+        }
+        #main_body > div:nth-child(9) > h2 {
+            padding: 0px 0px 10px;
+        }
+        #choose_post{
+            text-align:center;
+            font-size: 14px;
+            width: 235px;
+        }
+        #social_media{
+            width:100vw;
+        }
+        #social_button_block{
+            display:flex;
+            width: 100vw;
+            height: 121px;
+            justify-content: end;
+            margin: 0px auto 27px;
+            flex-direction: column;
+            align-items: center;
+        }
+        #social_media_check_green{
+            width: 112px;
+            height: 52px;
+            border-radius: 15px;
+            background-color: #4BA6AC;
+            position: absolute;
+            clip-path: circle(50% at 15px);
+        }
+        .social_icon{
+            width:112px;
+            height:52px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            z-index: 1;
+            background: white;
+            border-radius: 15px;
+            margin-top: 25px;
+        }
+        .social_icon img{
+            z-index: 1;
+        }
+        #social_media_check_white{
+            width: 112px;
+            height: 52px;
+            border-radius: 15px;
+            background-color: white;
+        }
+        #social_media_check div:nth-child(1), #social_media_check div:nth-child(2){
+            width:50%;
+            height:100%;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        #social_media_check div:nth-child(1){
+            background-color: #4BA6AC;
+            order: 2;
+        }
+        #social_media_check div:nth-child(2){
+            background-color:white;
+        }
+        #posts{
+            height: auto;
+            overflow-x: auto;
+            display: grid;
+            grid-auto-flow: column;
+            width: 100vw;
+            box-sizing: border-box;
+            gap:20px;
+        }
+        #posts > a:nth-child(5),#posts > a:nth-child(6){
+            display:none;
+        }
+        #posts img{
+            width: 220px;
+            height: 295px;
+        }
+        
+        #rec227545503{
+            padding-top: 0px !important;
+            height: 478px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        #main_body > div:nth-child(10){
+            justify-content: flex-start;
+            height: 85vh;
+        }
+        #form226427268{
+            border-radius: 20px;
+            background-color: white;
+            padding: 20px 10px;
+            width: 320px;
+            box-sizing: border-box;
+            margin:auto;
+    }
+        .label_form{
+            font:500 18px Montserrat;
+            font: 500 18px Montserrat;
+            text-align: center;
+            width: 260px;
+            display: block;
+            margin: auto;
+            padding-bottom: 20px;
+            color:#02404F;
+    }
+        #form226427268 > div.t-form__inputsbox > div.t-input-group.t-input-group_nm > div,
+        #form226427268 > div.t-form__inputsbox > div.t-input-group.t-input-group_ph > div,
+        #form226427268 > div.t-form__inputsbox > div.t-input-group.t-input-group_ta > div{
+            position: relative;
+            width: 260px;
+            margin: auto;
+        }
+    
+    #map_block{
+        display:flex;
+        flex-direction:column;
+    }
+    #map{
+        width:300px;
+        height:264px;
+        border-radius:20px;
+    }
+    #main_body > div:nth-child(11) > h2{
+        padding-top:5vh;
+        padding-bottom: 2.5vh;
+    }
+    
+    #map_block a{
+         margin: auto;
+    }
+    #map_block p{
+        text-align:center;
+        padding: 0px 0px 30px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    #last_block > div > p:nth-of-type(1){
+        color:#F29120;
+        text-align:center;
+        margin-bottom: 5px;
+    }
+    #last_block > div > p:nth-of-type(1) span{
+        color:#F29120;
+    }
+    #last_block > div > p:nth-of-type(2){
+        font-size:12px;
+        bottom: 1vh;
+        position: relative;
+        text-align:center;
+    }
+    #last_block > div > a{
+        margin: 40px auto 7vh;
+    }
+    
+    #last_block > div > img{
+        height:45px;
+        width:45px;
+    }
+    
+    #form227545503 > div.t-form__inputsbox > div.t-form__submit > button {
+        height: 50px !important;
+        width: 260px !important;
+    }
+    #form227545503 > div.t-form__inputsbox > div.t-input-group.t-input-group_nm > div > input,
+    #form227545503 > div.t-form__inputsbox > div.t-input-group.t-input-group_ph > div > input,
+    #form227545503 > div.t-form__inputsbox > div.t-input-group.t-input-group_ta > div > textarea {
+        width: 260px !important;
+        margin: auto !important;
+        height: 40px;
+        font:14px Montserrat;
+    }
+    #form227545503 > div.t-form__inputsbox > div.t-input-group.t-input-group_ta > div > textarea{
+        height:100px !important;
+    }
+    #form227545503 > div.t-form__inputsbox > div.t-input-group.t-input-group_nm > div{
+        padding-top: 20px;
+    }
+    #form227545503 > div.t-form__inputsbox{
+        margin: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .t678 .t-form__submit{
+        padding-bottom:0px;
+        margin: 0px auto;
+    }
+    #form227545503{
+        width: 300px;
+        margin: auto;
+        background-color: white;
+        padding: 20px 0px;
+        border-radius:20px;
+        text-align: center;
+        box-shadow: 0px 4px 4px 0px rgba(2,64,79,0.2);
+    }
+    #rec227545503 > div > div:nth-child(2) > div > div{
+        height:70vh;
+    }
+    .t678 .t-input-group {
+        margin-bottom: 10px;
+    }
+    .t678 .t-section__topwrapper {
+        margin-bottom: 0px !important;
+    }
+    #rec227545503 > div > div:nth-child(2) > div{
+        padding: 35px 0px 0px;
+    }
+    #form227545503 > div.t-form__inputsbox > div.t-input-group.t-input-group_nm::before{
+        content: 'Заповніть форму нижче і лікар зв\'яжеться з вами';
+        font: 500 16px Montserrat;
+        color: #02404F;
+        display: block;
+        width: 210px;
+        margin: auto;
+    }
+    #rec227545503 > div > div.t-section__container.t-container > div > div > div.t-section__title.t-title.t-title_xs > div{
+        font-weight: 500;
+        padding-top: 15px !important;
+    }
+    #last_block > div > h2{
+        margin: 15px 0px;
+    }
+    #rec227545503 > div > div.t-section__container.t-container > div > div > div.t-section__title.t-title.t-title_xs{
+        margin-bottom: 0px !important;
+    }
+    #form227545503 > div.t-form__inputsbox > div.t-form__submit > button{
+        font: 600 16px Montserrat;
+    }
+    #last_block > .div > h2 {
+        padding: 0px 0px 10px;
+    }
+    #last_text{
+        text-align:center;
+    }
+    #last_text p:first-child, #last_text p:first-child span{
+        color:#F29120;
+    }
+    #last_text p:last-child{
+        padding:5px 0px 10px;
+    }
+    #form227545503 > div.t-form__inputsbox > div.t-input-group.t-input-group_ta > div > textarea{
+        padding-top: 18px;
+    }
+    
+    .list.main li{
+        padding-bottom:10px !important;
+    }
+    #main_body > div:nth-child(1) > nav > ul:nth-child(1){
+        margin-bottom: 75px;
+    }
+    .list.info_clinic,#menu_social{
+        font-size:11px;
+    }
+    .nav_menu > div:first-child{
+        position: absolute;
+        top: 0px;
+        height: 50;
+        width: 100vw;
+        background-color: #4BA6AC;
+        color: white;
+        padding: 15px 7.18vw 15px;
+        font: 500 12px Montserrat;
+        line-height: 110%;
+    }
+    #main_body > div:nth-child(1) > nav > div:nth-child(1) > span{
+        font: 500 10px Montserrat;
+    }
+    .list.main{
+        font-size:18px;
+        margin-bottom: 20px;
+    }
+    .list.info_clinic,#menu_social{
+        font-size:14px;
+    }
+    #menu_social > * {
+        margin-bottom: 7px;
+    }
+    #menu_social{
+        margin:0px 0px 20px;
+    }
+    #rec228825317{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #anchor {
+        padding: 6vh 0px;
+    }
+    #last_text {
+        font: 12px Montserrat;
+    }
+    #menu_block{
+        height: calc(95vh - 56px);
+        position: relative;
+        bottom: -56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .info_clinic {
+        line-height: 145%;
+    }
+}
+@media screen and (min-width: 640px){
+    .nav_menu > div:first-child{
+        max-height: 80px;
+    }
+    h1{
+        font-size:32px;
+    }
+    #slogan{
+        font-size:20px;
+    }
+    #photo{
+        height: 50vh;
+    }
+    #main_button{
+        width:250px;
+        position: absolute;
+        bottom: 23vh;
+    }
+    div > h2 {
+        font-size:32px;
+    }
+    #video_block h2 {
+        padding: 0vh 0px 5vh;
+    }
+    #video_frame {
+        align-self: center;
+        width: 460px;
+        height: 257.22px;
+    }
+    #text_under_video {
+        width: 460px;
+    }
+    #text_under_video > p{
+        text-align:justify;
+        font-size: 16px;
+    }
+    .left, .right, .left p, .right p, .left h3, .right h3{
+        width:320px;
+    }
+    .left h3, .right h3{
+        font-size:16px;
+    }
+    .left p, .left h3{
+        padding-left:15px;
+    }
+    .right p, .right h3{
+        padding-right:15px;
+    }
+    #main_body > div:nth-child(4) {
+        height: 140vh;
+    }
+    #tooth_block{
+        margin: 0px auto;
+    }
+    #price_list{
+        width: 480px;
+    }
+    #price_list tr th:first-child{
+        width: 360px;
+    }
+    .responds{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 4px 4px 15px rgba(2,64,79,0.07);
+        margin: auto;
+        width: 430px;
+        border-radius: 20px;
+        background-color: white;
+        padding: 25px 25px 30px;
+        height: 260px;
+    }
+    .responds > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .responds > p:nth-of-type(1){
+        width: 240px;
+        align-self:center;
+        padding-left: 30px;
+    }
+    .responds > div > img{
+        width:100px;
+        height:100px;
+    }
+    #registration{
+        width: 480px;
+        margin-bottom: 20px;
+    }
+    #registration h3{
+        padding-top: 30px;
+    }
+    #registration > div {
+        flex-direction: row;
+        align-items: center;
+        width: 300px;
+    }
+    #registration button{
+        margin: 30px 0px 40px;
+    }
+    #registration > div:nth-child(4) > p, #registration > div:nth-child(4) > p{
+        text-align:justify;
+    }
+    #registration > div:nth-child(4) > i {
+        width: 40px;
+    }
+    #registration > div > i{
+        padding: 0px 20px 0px 0px;
+    }
+    #notification{
+        width:620px;
+        background: url(https://static.tildacdn.com/tild6131-3036-4135-b166-316561656534/bg_notification2.png) left center/cover no-repeat;
+    }
+    #notification p{
+        padding: 18px 0px 18px 40px;
+        font: 15px 'Open Sans';
+    }
+    #main_body > div:nth-child(9) > h2 {
+        padding: 10vh 0px 20px;
+    }
+    .social_icon {
+        width: 112px;
+        height: 52px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        z-index: 1;
+        background: white;
+        border-radius: 15px;
+    }
+    #social_button_block {
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    #choose_post {
+        text-align: left;
+        padding-left: 30px;
+    }
+    #posts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #posts > a {
+        display: inline !important;
+    }
+    #last{
+        display:flex;
+        flex-direction: column;
+    }
+    #rec227545503{
+        width:100vw;
+    }
+    #rec227565631{
+        width:100vw;
+    }
+    #last_block > .div{
+        width: 100vw;
+        display: flex;
+        padding-top: 0px !important;
+    }
+    #rec227545503 > div > div.t-section__container.t-container > div > div > div.t-section__title.t-title.t-title_xs > div {
+        font-size: 32px !important;
+    }
+    #rec227545503{
+        padding-top:7vh !important;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #rec228825317{
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #last_text{
+        padding-top:7vh;
+        font: 12px Montserrat;
+    }
+    #anchor{
+        padding-top:7vh;
+    }
+}
+@media screen and (min-width: 960px){
+    .nav_menu > div:first-child {
+        max-height: 115px;
+    }
+    #header{
+        height: 50px;
+    }
+    #button,.line{
+        width:40px;
+    }
+    #button{
+        height:40px;
+    }
+    h1,h2{
+        font-size:36px !important;
+    }
+    #header_sign, button{
+        font-size:18px !important;
+    }
+    #header_sign{
+        line-height:125%;
+    }
+    #header_sign > span{
+        font-size:16px;
+    }
+    #slogan{
+        font-size:23px !important;
+    }
+    #video_frame, #text_under_video{
+        width:780px;
+    }
+    #video_frame{
+        height:436px;
+    }
+    .left > div:nth-child(2) {
+        height: 550px;
+    }
+    .right > div:nth-child(2) {
+        height: 560px;
+    }
+    .left, .right, .left p, .right p, .left h3, .right h3{
+        width:530px;
+    }
+    .left h3, .right h3{
+        height:110px;
+    }
+    .left h3{
+        border-top-right-radius: 112px;
+    }
+    .right h3{
+        border-top-left-radius: 112px;
+    }
+    .left img{
+        width:320px;
+    }
+    .right img{
+        width:400px;
+        position: relative;
+        bottom: -50px;
+        z-index: -1;
+    }
+    .left h3, .right h3{
+        font-size: 22px;
+    }
+    .left p{
+        height:150px;
+        border-bottom-right-radius: 110px;
+    }
+    .right p{
+        height:150px;
+        border-bottom-left-radius: 110px;
+    }
+    .left > div > div, .right > div > div{
+        width: 64px;
+        border-radius:40px;
+        line-height: 64px;
+        margin-top: 270px;
+    }
+    .left p, .right p{
+        font-size:18px;
+    }
+    .left > div:nth-child(1) {
+        top:350px;
+    }
+    .right > div:nth-child(1) {
+        top:440px;
+    }
+    .left > div:nth-child(1), .right > div:nth-child(1){
+        width:80px;
+        height:80px;
+        border-radius:40px;
+        box-sizing:border-box;
+        line-height: 64px;
+        font-size: 24px;
+    }
+    .left,.right{
+        padding-top:0px;
+    }
+    #main_body > div:nth-child(4) {
+        height: 100vh;
+    }
+    #tooth_block{
+        width:675px;
+    }
+    .tooth{
+        width: 300px;
+        transform: scale(1.25);
+    }
+    #price_list {
+        width: 675px;
+    }
+    #price_list tr th:first-child {
+        width: 500px;
+    }
+    .responds{
+        transform: scale(1.40625);
+    }
+    #registration{
+        align-items: end;
+        padding-left: 195px;
+    }
+    .photo_registration_959{
+        background: url(https://static.tildacdn.com/tild3030-3838-4431-a434-383535643863/Rectangle_239.png) top left/contain no-repeat !important;
+    }
+    #registration h3 {
+        padding: 30px 0px 0px 70px;
+    }
+    #registration > p:nth-of-type(1){
+        padding: 0px 0px 0px 70px;
+    }
+    #registration button {
+        margin: 30px 70px 40px;
+    }
+    #registration > div {
+        margin: 10px 0px 0px 70px;
+    }
+    #notification {
+        width: 675px;
+    }
+    #posts{
+        width: 940px;
+        margin: auto;
+    }
+    #last {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #rec227545503 > div > div.t-section__container.t-container > div > div > div.t-section__title.t-title.t-title_xs > div {
+        font-size: 36px !important;
+    }
+    #last_block > .div {
+        width: 40vw;
+    }
+    #rec227565631 {
+        width: 40vw;
+    }
+    #rec227545503 {
+        padding-top: 7vh !important;
+        display: flex;
+        justify-content: center;
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 0px) and (orientation: landscape){
+    #menu_social {
+        margin: 0px !important;
+    }
+    #main_body > div:nth-child(1) > nav > div:nth-child(2){
+        display: flex;
+        height: calc(100vh - 30px);
+    }
+    .nav_menu > div:first-child{
+        height: 30px;
+    }
+    .nav_menu_visible {
+        display: flex;
+        flex-direction: column;
+    }
+    #main_body > div:nth-child(1) > nav > div:nth-child(2) > ul{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+    }
+    h2 {
+        padding: 0px;
+        margin: 40px 0px 25px;
+    }
+    #main_body > div:nth-child(1) > nav > div:nth-child(2) > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+    #main_body > div:nth-child(5) {
+        height: 470px !important;
+    }
+    #main_block{
+        padding: 0px 6vw;
+    }
+    .nav_menu > div:first-child{
+        padding: 15px 8vw 15px;
+    }
+    .list.info_clinic, #menu_social{
+        font-size: 12px;
+        margin-bottom: 13px;
+    }
+    .list.main{
+        margin-bottom:15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #menu_block > div > div > ul.list.info_clinic > li:nth-child(3) {
+        margin: 3px 0px 10px;
+    }
+    #menu_social > li:nth-child(1),#menu_social,#menu_block > div > div{
+        overflow:visible;
+    }
+    #header {
+        display: flex;
+        padding: 15px 6vw 0px;
+        justify-content: space-between;
+        height: 30px;
+    }
+    .photo_block{
+        padding: 0px 0px 0px 10vw;
+    }
+    #photo {
+        right: 8vw;
+        position: absolute;
+        top: 15vh;
+        height: 75vh !important;
+    }
+    #main_button {
+        padding: 0px 15px;
+        width: 150px;
+        font: 500 12px Montserrat;
+        align-self: start;
+        position:relative;
+        top:15px;
+    }
+    h1 {
+        font: 20px Neucha;
+        text-align: left;
+        color: #02404F;
+        padding-top: 20vh;
+    }
+    #slogan{
+        font-size: 13px;
+        text-align: left;
+        margin: 5px 0px;
+    }
+    div > h2 {
+        font-size: 24px;
+    }
+    #main_body > div:nth-child(4) {
+        height: 960px!important;
+    }
+    #main_body > div:nth-child(2) {
+        height: 500px !important;
+    }
+    #main_body > div:nth-child(3) {
+        height: 1010px !important;
+        justify-content: start;
+    }
+    #video_block h2 {
+        padding: 7vh 0 7vh;
+    }
+    #video_frame{
+        align-self: center;
+        width: 480px;
+        height: 270px;
+    }
+    #text_under_video > p {
+        text-align: justify;
+        font-size: 14px;
+    }
+    #text_under_video {
+        width: 480px;
+    }
+    #main_body div:nth-child(3) h2 {
+        padding: 0px;
+    }
+    #block_gums {
+        height: 1000px;
+    }
+    #tooth_block {
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        height: 840px;
+        margin: 5vh auto 15vh;
+    }
+    #main_body > div:nth-child(4) > h2 {
+        padding: 0px;
+    }
+    .tooth {
+        margin-bottom: -120px;
+    }
+    #price_list {
+        width: 480px;
+    }
+    #price_list tr:nth-child(2n) td:first-child {
+        width: 300px;
+    }
+    .responds{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        box-shadow:4px 4px 15px rgba(2,64,79,0.07);
+        margin: auto;
+        width: 430px;
+        border-radius:20px;
+        background-color: white;
+        padding:25px 25px 30px;
+        height: 200px !important;
+    }
+    .responds > div > img{
+        padding-top: 0px;
+        width: 90px !important;
+        height: 90px !important;
+        align-self: flex-start;
+    }
+    .responds > p:nth-of-type(1){
+        text-align: justify;
+        font: 13px 'Open Sans', sans-serif;
+        height: auto;
+        width: 280px;
+        padding: 0px;
+        align-self: center !important;
+    }
+    .responds > div > p:nth-of-type(2){
+        text-align:left;
+        font:13px 'Montserrat', sans-serif;
+     	margin:0px;
+     	width: 100%;
+    }
+    #posts{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .responds > div > p:nth-of-type(2)::before{
+        content:url(https://static.tildacdn.com/tild3333-3633-4035-b266-313464623936/10Instagram_logo.svg);
+        vertical-align:sub;
+        padding-right: 5px;
+    }
+    .responds > div{
+    	display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-right: 30px;
+    }
+    
+    .responds > div > p:nth-of-type(1){
+    	text-align: left;
+        font: 500 15px 'Montserrat', sans-serif;
+        width: 150px;
+        padding: 10px 0px 5px;
+    }
+    #registration{
+        width:480px;
+    }
+    #registration p:nth-of-type(2) {
+        align-self: flex-end;
+        text-align: left;
+        width: 300px;
+    }
+    #registration > div {
+        flex-direction: row;
+        align-items: center;
+        width: 300px;
+    }
+    #registration > div > p {
+        text-align:left;
+    }
+    #registration > div > i {
+        padding: 0px 20px 0px 0px;
+    }
+    #registration > div:nth-child(4) > i{
+        width: 40px;
+    }
+    #registration button {
+        padding: 15px 50px;
+    }
+    #main_body > div:nth-child(6) {
+        height: 340px !important;
+        justify-content: center;
+    }
+    #main_body > div:nth-child(7) {
+        height: 350px !important;
+    }
+    #main_body > div:nth-child(8) {
+        height: 200px !important;
+        justify-content: center;
+    }
+    #notification {
+        background: url(https://static.tildacdn.com/tild3461-3765-4634-b934-326665373663/bg_notification.png) -10px/cover no-repeat;
+        width: 480px;
+        box-shadow: 4px 4px 20px 3px rgba(2,64,79,0.07);
+    }
+    #notification p {
+        padding: 10px 10px 10px 50px;
+        width: auto;
+    }
+    #social_button_block {
+        justify-content: center;
+        flex-direction: row-reverse;
+        height: 100px;
+    }
+    #choose_post{
+        text-align: left;
+        padding-left: 30px;
+    }
+    #rec228825317{
+        height: 50vh !important;
+    }
+    .responds > p:nth-of-type(1) {
+        width: 260px;
+        align-self: center;
+        padding-left: 0px;
+    }
+     #rec227545503 > div > div:nth-child(2) > div > div {
+        height: 130vh !important;
+        overflow: visible;
+    }
+     #social_button_block > div{
+        margin:0px !important;
+    }
+    #main_body > div:nth-child(8) > h2{
+        margin-top: 0px !important;
+    }
+    #main_body > div:nth-child(9){
+        height:860px !important;
+    }
+    #rec227545503 > div > div.t-section__container.t-container{
+        margin-top: 50px !important;
+    }
+    #rec227545503{
+        padding-top:0px !important;
+        height: 500px;
+    }
+    #rec227545503 > div > div.t-section__container.t-container > div > div > div.t-section__title.t-title.t-title_xs > div{
+        font-size:24px !important;
+    }
+    #rec228825317 > div{
+        height:50vh;
+    }
+    #copyright {
+        height: 50vh;
+    }
+    #anchor {
+        padding: 13vh 0px;
+    }
+    #last_text {
+        padding-top: 0px;
+        font: 12px Montserrat;
+    }
+}
+@media screen and (min-width: 960px) and (orientation: landscape){
+    #header {
+        display: flex;
+        padding: 5vh 8vw 0px;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .photo_block{
+        padding: 0px 0px 0px 10vw;
+    }
+    #photo {
+        right: 8vw;
+        position: absolute;
+        top: 25vh;
+        height: 60vh !important;
+    }
+    #main_button {
+        padding: 14px;
+        width: 250px;
+    }
+    h1 {
+        font: 24px Neucha;
+        text-align: left;
+        color: #02404F;
+        padding-top: 20vh;
+    }
+    #slogan{
+        font-size: 16px;
+        text-align: left;
+    }
+    div > h2 {
+        font-size: 24px;
+    }
+    #main_body > div:nth-child(4) {
+        height: auto !important;
+    }
+    #video_block h2 {
+        padding: 7vh 0 7vh;
+    }
+    #video_frame{
+        align-self: center;
+        width: 480px;
+        height: 270px;
+    }
+    #text_under_video > p {
+        text-align: justify;
+        font-size: 14px;
+    }
+    #text_under_video {
+        width: 480px;
+    }
+    #main_body div:nth-child(3) h2 {
+        padding: 3px 0vh 25px;
+    }
+    #tooth_block {
+        width: 640px;
+    }
+    #main_body > div:nth-child(4) > h2 {
+        padding: 5vh 0px 30px;
+    }
+    .tooth {
+        margin-bottom: -120px;
+    }
+    #price_list {
+        width: 640px;
+    }
+    #price_list tr:nth-child(2n) td:first-child {
+        width: 300px;
+    }
+    #respond_block{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+    .responds{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        box-shadow:4px 4px 15px rgba(2,64,79,0.07);
+        margin: auto;
+        width: 430px;
+        border-radius:20px;
+        background-color: white;
+        padding:25px 25px 30px;
+        height: 180px !important;
+    }
+    .responds > div > img{
+        padding-top: 0px;
+        width: 90px !important;
+        height: 90px !important;
+        align-self: flex-start;
+    }
+    .responds > p:nth-of-type(1){
+        text-align: justify;
+        font: 13px 'Open Sans', sans-serif;
+        height: auto;
+        width: 280px;
+        padding: 0px;
+        align-self: center !important;
+    }
+    .responds > div > p:nth-of-type(2){
+        text-align:left;
+        font:13px 'Montserrat', sans-serif;
+     	margin:0px;
+     	width: 100%;
+    }
+    .responds > div > p:nth-of-type(2)::before{
+        content:url(https://static.tildacdn.com/tild3333-3633-4035-b266-313464623936/10Instagram_logo.svg);
+        vertical-align:sub;
+        padding-right: 5px;
+    }
+    .responds > div{
+    	display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-right: 30px;
+        align-items: center !important;
+        align-self: center;
+    }
+    .responds > div > p:nth-of-type(1){
+    	text-align: left;
+        font: 500 15px 'Montserrat', sans-serif;
+    }
+    #registration{
+        width:480px;
+    }
+    #registration p:nth-of-type(2) {
+        align-self: flex-end;
+        text-align: left;
+        width: 300px;
+    }
+    #registration > div {
+        flex-direction: row;
+        align-items: center;
+        width: 300px;
+    }
+    #registration > div > p {
+        text-align:left;
+    }
+    #registration > div > i {
+        padding: 0px 20px 0px 0px;
+    }
+    #registration > div:nth-child(4) > i{
+        width: 40px;
+    }
+    #registration button {
+        padding: 15px 50px;
+    }
+    #notification {
+        background: url(https://static.tildacdn.com/tild6131-3036-4135-b166-316561656534/bg_notification2.png) left/cover;
+        width: 640px;
+    }
+    #notification p {
+        padding: 10px 10px 10px 50px;
+        width: auto;
+    }
+    #social_button_block {
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    #choose_post{
+        text-align: left;
+        padding-left: 30px;
+    }
+    #rec228825317{
+        height: 50vh !important;
+    }
+    .responds > p:nth-of-type(1) {
+        width: 260px;
+        align-self: center;
+        padding-left: 0px;
+    }
+    #rec228825317 > div{
+        position: relative;
+        bottom: -80px;
+    }
+    #main_body > div:nth-child(9){
+        height: 240vh !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #header{
+        height:50px;
+    }
+    #photo {
+        right: 10vw;
+        top: 15vh;
+        height: 75vh !important;
+    }
+    #main_button {
+        font: 500 18px Montserrat;
+        padding: 14px;
+        width: 250px;
+    }
+    h1 {
+        font-size:36px !important;
+    }
+    #video_frame{
+        height:436px;
+    }
+    #video_frame, #text_under_video {
+        width: 780px;
+    }
+    #tooth_block{
+        width: 675px;
+    }
+    #price_list{
+        width:675px;
+    }
+    #respond_block{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+    }
+    #registration{
+        width: 635px;
+        height: 390px;
+        justify-content: center;
+        padding-left: 325px;
+    }
+    #registration h3{
+        font: 500 27px 'Montserrat', sans-serif;
+    }
+    #registration > p:nth-of-type(1){
+        font: 21px 'Montserrat', sans-serif;
+    }
+    #registration > div{
+        width: 500px;
+    }
+    #registration > div:nth-child(4) > i {
+        width: 24px;
+    }
+    #notification{
+        background: url(https://static.tildacdn.com/tild3936-3132-4332-a538-313231653965/Group_916.png) left/cover;
+        width: 960px;
+    }
+}
