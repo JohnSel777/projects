@@ -1,2 +1,2 @@
-var x = document.querySelector('.t-input-error');
-x.innerHTML = 'Введіть ваше ім\'я';
+var err = document.querySelector('.t-input-error');
+err.innerHTML = 'Введіть ваше ім\'я';
