@@ -5,7 +5,7 @@ for(x of div){
       x.setAttribute('ontouchmove','touchMove(event)')
   }
 var arr = [];
-function touchMove(event) {
+if(window.innerWidth < 1200){function touchMove(event) {
     var t = event.touches[0].clientX;
     arr.push(t);
     if(arr.length>2 && !(arr[0] == 0) && !(arr[1] == 0)){
@@ -34,4 +34,5 @@ var delta = arr[1]-arr[0];
         div[4].style.zIndex = '1';
     }
 event.preventDefault();
+}
 }
