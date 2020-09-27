@@ -61,9 +61,10 @@ var respond_cards, respond_navigation,
         function showSlides(n) {
           if (n > cards_len) {slideIndex = 1}
           if (n < 1) {slideIndex = cards_len}
-          for (i = 0; i < cards_len; i++) {respond_cards[i].style.display = 'none';}
-          for (i = 0; i < dots_len; i++) {respond_navigation[i].className = respond_navigation[i].className.replace("active_dot","");}
+          for (i = 0; i < cards_len; i++) {respond_cards[i].classList.add('responds_transitioned_right');}
+          for (i = 0; i < dots_len; i++) {respond_navigation[i].className = respond_navigation[i].classList.remove("active_dot");}
           respond_cards[slideIndex - 1].classList.add('respond_display');
+          respond_cards[slideIndex - 1].classList.remove('responds_transitioned_right','comment_transitioned_left');
           respond_navigation[slideIndex - 1].classList.add('active_dot');
         }
       }
