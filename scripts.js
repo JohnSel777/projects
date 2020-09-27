@@ -35,3 +35,40 @@ var delta = arr[1]-arr[0];
     }
 event.preventDefault();
 }
+
+var respond_cards, respond_navigation,
+      cards_len, dots_len,
+      slideIndex,
+      i,
+      arrRight;
+        
+      if(window.innerWidth > 1200){
+        respond_cards = document.getElementsByClassName("responds");
+        respond_navigation = document.getElementsByClassName("dots");
+
+        cards_len = respond_cards.length;
+        dots_len = respond_navigation.length;
+
+        slideIndex = 1;
+
+        arrRight = document.querySelector("#respond_navigation > img:nth-child(7)");
+
+        setInterval(function(){arrRight.click()},5000);
+
+        function plusSlides(n) {showSlides(slideIndex += n);}
+
+
+        function showSlides(n) {
+          if (n > cards_len) {slideIndex = 1}
+          if (n < 1) {slideIndex = cards_len}
+          for (i = 0; i < cards_len; i++) {respond_cards[i].style.display = 'none';}
+          for (i = 0; i < dots_len; i++) {respond_navigation[i].className = respond_navigation[i].className.replace("active_dot","");}
+          respond_cards[slideIndex - 1].style.display = 'flex';
+          respond_cards[slideIndex - 1].style.animation = "opacity 0.5s 1";
+          respond_navigation[slideIndex - 1].className += " active_dot";
+        }
+      }
+
+      function openInstagram(){
+        location.assign("https://www.instagram.com/dr_uliana_chernienko/");
+      }
