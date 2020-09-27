@@ -28,7 +28,7 @@ var delta = arr[1]-arr[0];
             div[i].classList.remove('responds_transitioned_right','responds_transitioned_left')
         }
     }
-    else if(event.currentTarget === div[0]){
+    else if(event.currentTarget === div[1]){
         div[4].classList.remove('responds_transitioned_right','responds_transitioned_left');
     }
 event.preventDefault();
