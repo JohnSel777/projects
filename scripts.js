@@ -25,11 +25,13 @@ var delta = arr[1]-arr[0];
         }
     if(event.currentTarget === div[4]){
         for(i = 0; i < 4; i++){
+            div[4].style.zIndex = '6';
             div[i].classList.remove('responds_transitioned_right','responds_transitioned_left')
         }
     }
-    else if(event.currentTarget === div[1]){
+    else if(event.currentTarget === div[0]){
         div[4].classList.remove('responds_transitioned_right','responds_transitioned_left');
+        div[4].style.zIndex = '1';
     }
 event.preventDefault();
 }
