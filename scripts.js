@@ -63,9 +63,8 @@ var respond_cards, respond_navigation,
           if (n < 1) {slideIndex = cards_len}
           for (i = 0; i < cards_len; i++) {respond_cards[i].style.display = 'none';}
           for (i = 0; i < dots_len; i++) {respond_navigation[i].className = respond_navigation[i].className.replace("active_dot","");}
-          respond_cards[slideIndex - 1].style.display = 'flex';
-          respond_cards[slideIndex - 1].style.animation = "opacity 0.5s 1";
-          respond_navigation[slideIndex - 1].className += " active_dot";
+          respond_cards[slideIndex - 1].classList.add('responds_transitioned_right');
+          respond_navigation[slideIndex - 1].classList.add('active_dot');
         }
       }
 
