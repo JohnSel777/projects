@@ -6,3 +6,4 @@ x2.innerText = 'Введіть ваше ім\'я';
 for (let button of document.querySelectorAll('button')){
   button.setAttribute('class','buttons')
 };
+document.getElementById('form227545503').setAttribute('class','form_01')
